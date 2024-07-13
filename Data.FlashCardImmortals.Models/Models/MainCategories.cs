@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 
 namespace Data.FlashCardImmortals.Models.Models
 {
-    public class MainCategory
+    public class MainCategories
     {
         [Key]
         public Guid Id { get; set; }
@@ -15,7 +15,7 @@ namespace Data.FlashCardImmortals.Models.Models
         public string Name { get; set; }
 
         [IgnoreDataMember]
-        public ICollection<Users> Users { get; set; }
+        public IEnumerable<Users> Users { get; set; }
     }
 }
 

@@ -18,10 +18,10 @@ namespace Data.FlashCardImmortals.Models.Models
         public string Name { get; set; }
 
         [IgnoreDataMember]
-        public ICollection<Users> Users { get; set; }
+        public IEnumerable<Users> Users { get; set; }
 
         [IgnoreDataMember]
-        public ICollection<MainCategory> MainCategory { get; set; }
+        public IEnumerable<MainCategories> MainCategories { get; set; }
     }
 }
 

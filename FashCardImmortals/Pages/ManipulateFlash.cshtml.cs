@@ -11,6 +11,8 @@ namespace FashCardImmortals.Pages
         #region Fields
         ISubCategoriesDataOperations _subCategoryData;
 
+        IFlashcardsDataOperations _flashcardsData;
+
         Guid _mainCategoryId = Guid.Empty;
 
         Guid _userId = Guid.Empty;
@@ -18,12 +20,18 @@ namespace FashCardImmortals.Pages
 
         #region Properties
         public List<SubCategories> SubCategoriesList { get; set; }
+
+        public Dictionary<Guid, List<Flashcards>> FlashcardsInSubcategories { get; set; } = new();
         #endregion
 
         #region Constructors
         //public ManipulateFalshModel(string mainCategoryId, ISubCategoriesDataOperations subCategoryData) => _subCategoryData = subCategoryData;
 
-        public ManipulateFlashModel(ISubCategoriesDataOperations subCategoryData) => _subCategoryData = subCategoryData;
+        public ManipulateFlashModel(ISubCategoriesDataOperations subCategoryData, IFlashcardsDataOperations flashcardsData)
+        {
+            _subCategoryData = subCategoryData;
+            _flashcardsData = flashcardsData;
+        }
         #endregion
 
         public void OnGet()
@@ -37,6 +45,7 @@ namespace FashCardImmortals.Pages
                 throw new ArgumentException("User is not authenticated.");
 
             SetSubCategoriesInScope();
+            SetFlashcardsInSubcategories();
         }
 
         #region Public Methods
@@ -59,11 +68,35 @@ namespace FashCardImmortals.Pages
                 return new JsonResult(new { success = false, error = "An error occurred while creating the new sub category." });
             }
         }
+
+        public IActionResult OnPostRegisterNewFlashCard([FromBody] Flashcards newFlashCard)
+        {
+            //TODO: Figure out how to retrieve the subCategoryId from the UI.
+            if(newFlashCard == null)
+                return new JsonResult(new { success = false, error = "Invalid flash card." });
+
+            try
+            {
+                _flashcardsData.RegisterNewFlashCard(newFlashCard);
+
+                return new JsonResult(new { success = true });
+            }
+            catch
+            {
+                return new JsonResult(new { success = false, error = "An error occurred while creating the new flash card." });
+            }
+        }
         #endregion
 
         #region Private Methods
         private void SetSubCategoriesInScope() =>
             SubCategoriesList = _subCategoryData.RetrieveAllSubCategoriesFromIds(_userId, _mainCategoryId)?.ToList();
+
+        private void SetFlashcardsInSubcategories()
+        {
+            foreach(SubCategories subCategory in SubCategoriesList)
+                FlashcardsInSubcategories.Add(subCategory.Id, _flashcardsData.RetrieveAllFlashcardsFormSubCategory(subCategory.Id));
+        }
         #endregion
     }
 }

@@ -1,21 +1,23 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace Data.FlashCardImmortals.Models.Models
 {
-    public class Flashcard
+    public class Flashcards
     {
         [Key]
         public Guid Id { get; set; }
 
-        [ForeignKey("SubCategory")]
+        [ForeignKey("SubCategories")]
         public Guid SubCategoryId { get; set; }
 
         public string Question { get; set; }
 
         public string Answer { get; set; }
 
-        public ICollection<SubCategories> SubCategory { get; set; }
+        [IgnoreDataMember]
+        public IEnumerable<SubCategories> SubCategories { get; set; }
     }
 }
 

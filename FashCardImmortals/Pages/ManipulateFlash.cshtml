@@ -12,23 +12,23 @@
     <div class="flash-content">
         <div class="flex-inputs">
             <label class="labels">Question</label>
-            <textarea class="input-info textarea" placeholder="Enter question"></textarea>
+            <textarea class="input-info textarea" placeholder="Enter question" id="question-input"></textarea>
         </div>
         <div class="flex-inputs">
             <label class="labels">Answer</label>
-            <textarea class="input-info textarea" placeholder="Enter answer"></textarea>
+            <textarea class="input-info textarea" placeholder="Enter answer" id="answer-input"></textarea>
         </div>
         <div class="flex-inputs">
             <label class="labels">Sub Category</label>
-            <select class="input-info">
+            <select class="input-info" id="sub-category-input">
                 @foreach (SubCategories subCategory in Model.SubCategoriesList)
                 {
-                    <option value="@subCategory.Name">@subCategory.Name</option>
+                    <option value="@subCategory.Name/@subCategory.Id">@subCategory.Name</option>
                 }
             </select>
             <div class="flex-buttons">
                 <button class="submit-button" onclick="PopUpDisplay();">+ Category</button>
-                <button class="submit-button">+ FlashCard</button>
+                <button class="submit-button" onclick="RegisterNewFlashCard();">+ FlashCard</button>
             </div>
         </div>
     </div>
@@ -44,15 +44,15 @@
                 <div class="category-content-containers">
                     <h3 class="sub-category-headings">@Model.SubCategoriesList[i].Name</h3>
                     <hr />
-                    <div class="flash-cards-in-@Model.SubCategoriesList[i].Name">
+                    <div class="flash-cards-in-@Model.SubCategoriesList[i].Name" id="flash-cards-in-@Model.SubCategoriesList[i].Name">
                         <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
+                            <div class="flash-card-inner" id="flash-card-inner-@Model.SubCategoriesList[i].Id">
                                 <div class="flash-card-front">
                                     <h5 class="sub-category-headings">Question:</h5>
                                     <label class="flash-card-contents">Lekker wat se jy?</label>
                                     <br />
                                     <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
+                                    <button class="button" onclick="flipCard('flash-card-inner-@Model.SubCategoriesList[i].Id')">Swap</button>
                                     <br />
                                 </div>
                                 <div class="flash-card-back">
@@ -60,7 +60,7 @@
                                     <label class="flash-card-contents">Nee goed en jy?</label>
                                     <br />
                                     <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
+                                    <button class="button" onclick="flipCard('flash-card-inner-@Model.SubCategoriesList[i].Id')">Swap</button>
                                     <br />
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
 
                         <br />
                     </div>
-                </div>                
+                </div>
             }
         </div>
     </div>
