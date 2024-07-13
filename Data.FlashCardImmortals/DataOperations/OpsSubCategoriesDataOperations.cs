@@ -30,7 +30,7 @@ namespace Data.FlashCardImmortals.DataOperations
             }
         }
 
-        public void RetrieveAllSubCategoriesFromIds(Guid userId, Guid mainCategoryId)
+        public IEnumerable<SubCategories> RetrieveAllSubCategoriesFromIds(Guid userId, Guid mainCategoryId)
         {
             try
             {
@@ -39,6 +39,8 @@ namespace Data.FlashCardImmortals.DataOperations
                     .Load(subCategories)
                     .Where(subCategories => subCategories.UserId == userId && subCategories.MainCategoryId == mainCategoryId)
                     .Execute();
+
+                return subCategories;
             }
             catch
             {

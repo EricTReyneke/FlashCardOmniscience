@@ -12,9 +12,9 @@ namespace FashCardImmortals.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            return new RedirectResult("/Login");
         }
     }
 }

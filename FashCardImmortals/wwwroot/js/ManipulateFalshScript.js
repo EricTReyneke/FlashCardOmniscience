@@ -25,14 +25,33 @@
         data: JSON.stringify(newSubCategory),
         success: function (response) {
             if (response.success) {
+                Toastify({
+                    text: "Subcategory registered successfully!",
+                    duration: 3000,
+                    gravity: "bottom",
+                    position: "right",
+                    backgroundColor: "#4CAF50",
+                }).showToast();
                 PopUpDisplay();
             } else {
-                $('#errorMessage').text(response.error);
+                Toastify({
+                    text: response.error,
+                    duration: 3000,
+                    gravity: "bottom",
+                    position: "right",
+                    backgroundColor: "#ff6b6b",
+                }).showToast();
             }
         },
         error: function (error) {
             console.error('Error sending data:', error);
-            $('#errorMessage').text('An error occurred while processing your request.');
+            Toastify({
+                text: "An error occurred while processing your request.",
+                duration: 3000,
+                gravity: "bottom",
+                position: "right",
+                backgroundColor: "#ff6b6b",
+            }).showToast();
         }
     });
 }

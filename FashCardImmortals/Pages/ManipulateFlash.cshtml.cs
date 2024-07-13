@@ -6,25 +6,38 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace FashCardImmortals.Pages
 {
-    public class ManipulateFalshModel : PageModel
+    public class ManipulateFlashModel : PageModel
     {
         #region Fields
         ISubCategoriesDataOperations _subCategoryData;
 
         Guid _mainCategoryId = Guid.Empty;
+
+        Guid _userId = Guid.Empty;
+        #endregion
+
+        #region Properties
+        public List<SubCategories> SubCategoriesList { get; set; }
         #endregion
 
         #region Constructors
         //public ManipulateFalshModel(string mainCategoryId, ISubCategoriesDataOperations subCategoryData) => _subCategoryData = subCategoryData;
 
-        public ManipulateFalshModel(ISubCategoriesDataOperations subCategoryData)
-        {
-            _subCategoryData = subCategoryData;
+        public ManipulateFlashModel(ISubCategoriesDataOperations subCategoryData) => _subCategoryData = subCategoryData;
+        #endregion
 
+        public void OnGet()
+        {
             if (!GuidExstender.TryParseGuid("807E3B0D-C532-40C8-A606-A09B99839B7E", out _mainCategoryId))
                 throw new ArgumentException("Main Category Id was not a valid guid");
+
+            string userIdString = HttpContext.Session.GetString("UserId");
+
+            if (string.IsNullOrEmpty(userIdString) || !GuidExstender.TryParseGuid(userIdString, out _userId))
+                throw new ArgumentException("User is not authenticated.");
+
+            SetSubCategoriesInScope();
         }
-        #endregion
 
         #region Public Methods
         public IActionResult OnPostRegisterSubCategory([FromBody] SubCategories newSubCategory)
@@ -34,14 +47,8 @@ namespace FashCardImmortals.Pages
 
             try
             {
-                string userIdString = HttpContext.Session.GetString("UserId");
-                Guid userGuid = Guid.Empty;
-
-                if (string.IsNullOrEmpty(userIdString) || !GuidExstender.TryParseGuid(userIdString, out userGuid))
-                    return new JsonResult(new { success = false, error = "User is not authenticated." });
-
                 newSubCategory.MainCategoryId = _mainCategoryId;
-                newSubCategory.UserId = userGuid;
+                newSubCategory.UserId = _userId;
 
                 _subCategoryData.RegisterSubCategory(newSubCategory);
 
@@ -52,6 +59,11 @@ namespace FashCardImmortals.Pages
                 return new JsonResult(new { success = false, error = "An error occurred while creating the new sub category." });
             }
         }
+        #endregion
+
+        #region Private Methods
+        private void SetSubCategoriesInScope() =>
+            SubCategoriesList = _subCategoryData.RetrieveAllSubCategoriesFromIds(_userId, _mainCategoryId)?.ToList();
         #endregion
     }
 }

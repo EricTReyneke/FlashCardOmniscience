@@ -1,7 +1,6 @@
 ﻿@page
-@model FashCardImmortals.Pages.ManipulateFalshModel
-@{
-}
+@using Data.FlashCardImmortals.Models.Models;
+@model FashCardImmortals.Pages.ManipulateFlashModel
 
 <head>
     <link rel="stylesheet" href="~/css/ManipulateFalshStyles.css">
@@ -10,7 +9,6 @@
 
 <div class="flash-container">
     <h1 class="heading">Achieve <span class="underline-word">Omniscience</span></h1>
-
     <div class="flash-content">
         <div class="flex-inputs">
             <label class="labels">Question</label>
@@ -23,31 +21,67 @@
         <div class="flex-inputs">
             <label class="labels">Sub Category</label>
             <select class="input-info">
-                <option value="" disabled selected>Select category</option>
+                @foreach(SubCategories subCategory in Model.SubCategoriesList)
+                {
+                    <option value="@subCategory.Name">@subCategory.Name</option>
+                }
             </select>
             <div class="flex-buttons">
                 <button class="submit-button" onclick="PopUpDisplay();">+ Category</button>
-                <button class="submit-button" onclick="" >+ FlashCard</button>
+                <button class="submit-button">+ FlashCard</button>
             </div>
+        </div>
+    </div>
+    <div class="sub-category-container">
+        <div class="row-one-flex">
+            @for (int i = 0; i < Model.SubCategoriesList.Count() ; i++)
+            {
+                if(i == 5)
+                {
+                    break;
+                }
+
+                <div class="category-content-containers">
+                    <h3 class="sub-category-headings">@Model.SubCategoriesList[i].Name</h3>
+                    <hr />
+                    <div class="flash-cards-in-"></div>
+                </div>
+            }
+        </div>
+
+        <div class="row-one-flex">
+            <div class="category-content-containers">
+                <h3 class="sub-category-headings">War</h3>
+                <hr />
+                <div class="flash-cards-in-"></div>
+            </div>
+
+            @for (int i = 0; i < 4; i++)
+            {
+                if(i == 10)
+                {
+                    break;
+                }
+            }
         </div>
     </div>
 </div>
 
 <div class="overlay" id="overlay" tabindex="-1"></div>
 
-<div class="new-category-pop-up" id="popup" >
+<div class="new-category-pop-up" id="popup">
     <div class="pop-up-content">
         <h1 class="heading">Create new Sub Category</h1>
-
-        <div class="flex-inputs" id="pupup-flex">
-            <label class="labels">Sub Category Name</label>
-            <input type="text" class="input-info" id="new-category-name" />
+        <div class="flex-inputs" id="popup-flex">
+            <label class="labels" for="new-category-name-input">Sub Category Name</label>
+            <input type="text" id="new-category-name-input" class="input-info" />
             <div class="flex-buttons" id="new-category-buttons">
                 <button class="submit-button" onclick="RegisterSubCategory();">+ Category</button>
-                <button class="submit-button" id="cancel-button" onclick="PopUpDisplay();" >- Cancel</button>
+                <button class="submit-button" id="cancel-button" onclick="PopUpDisplay();">- Cancel</button>
             </div>
         </div>
     </div>
 </div>
+<div id="errorMessage" style="color: red;"></div>
 
 @Html.AntiForgeryToken()

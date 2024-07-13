@@ -15,6 +15,7 @@ namespace Data.FlashCardImmortals.Interfaces
         /// </summary>
         /// <param name="userId">Users Id.</param>
         /// <param name="mainCategoryId">Main Category Id.</param>
-        void RetrieveAllSubCategoriesFromIds(Guid userId, Guid mainCategoryId);
+        /// <returns>List of SubCategories in Scope.</returns>
+        IEnumerable<SubCategories> RetrieveAllSubCategoriesFromIds(Guid userId, Guid mainCategoryId);
     }
 }
