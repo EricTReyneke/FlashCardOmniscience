@@ -4,14 +4,99 @@
     "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj": {}
   },
   "projects": {
-    "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj": {
+    "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\Business.FlashCardImmortals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj",
-        "projectName": "FashCardImmortals",
-        "projectPath": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj",
+        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\Business.FlashCardImmortals.csproj",
+        "projectName": "Business.FlashCardImmortals",
+        "projectPath": "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\Business.FlashCardImmortals.csproj",
         "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
-        "outputPath": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\obj\\",
+        "outputPath": "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj"
+              },
+              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
+        "projectName": "Data.FlashCardImmortals.Models",
+        "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
+        "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
+        "outputPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +129,176 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
+        "projectName": "Data.FlashCardImmortals",
+        "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
+        "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
+        "outputPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj",
+        "projectName": "FashCardImmortals",
+        "projectPath": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj",
+        "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
+        "outputPath": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\Business.FlashCardImmortals.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Business.FlashCardImmortals\\Business.FlashCardImmortals.csproj"
+              },
+              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj"
+              },
+              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {
+                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

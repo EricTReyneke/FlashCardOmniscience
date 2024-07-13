@@ -16,16 +16,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\FlashCard\FashCardImmortals\FashCardImmortals
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/ManipulateFlash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuaXB1bGF0ZUZsYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Progress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3Jlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Quiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Shared/_ValidationScriptsPartial.cshtml]

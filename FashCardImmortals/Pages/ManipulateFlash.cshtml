@@ -1,0 +1,34 @@
+﻿@page
+@model FashCardImmortals.Pages.ManipulateFalshModel
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/ManipulateFalshStyles.css">
+    <script src="~/js/ManipulateFalshScript.js"></script>
+</head>
+
+<div class="flash-container">
+    <h1 class="heading">Achieve <span class="underline-word">Omniscience</span></h1>
+
+    <div class="flash-content">
+        <div class="flex-inputs">
+            <label class="labels">Question</label>
+            <textarea class="input-info textarea" placeholder="Enter question"></textarea>
+        </div>
+        <div class="flex-inputs">
+            <label class="labels">Answer</label>
+            <textarea class="input-info textarea" placeholder="Enter answer"></textarea>
+        </div>
+        <div class="flex-inputs">
+            <label class="labels">Category</label>
+            <select class="input-info">
+                <option value="" disabled selected>Select category</option>
+            </select>
+            <div class="flex-buttons">
+                <button class="submit-button">+ Category</button>
+                <button class="submit-button">+ FlashCard</button>
+            </div>
+        </div>
+    </div>
+</div>
