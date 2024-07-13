@@ -16,7 +16,7 @@ namespace Data.FlashCardImmortals.DataOperations
         #endregion
 
         #region Public Methods
-        public void RegisterSubCategory(SubCategory newSubCategory)
+        public void RegisterSubCategory(SubCategories newSubCategory)
         {
             try
             {
@@ -34,7 +34,7 @@ namespace Data.FlashCardImmortals.DataOperations
         {
             try
             {
-                IEnumerable<SubCategory> subCategories = new List<SubCategory>();
+                IEnumerable<SubCategories> subCategories = new List<SubCategories>();
                 _reflector
                     .Load(subCategories)
                     .Where(subCategories => subCategories.UserId == userId && subCategories.MainCategoryId == mainCategoryId)

@@ -21,14 +21,33 @@
             <textarea class="input-info textarea" placeholder="Enter answer"></textarea>
         </div>
         <div class="flex-inputs">
-            <label class="labels">Category</label>
+            <label class="labels">Sub Category</label>
             <select class="input-info">
                 <option value="" disabled selected>Select category</option>
             </select>
             <div class="flex-buttons">
-                <button class="submit-button">+ Category</button>
-                <button class="submit-button">+ FlashCard</button>
+                <button class="submit-button" onclick="PopUpDisplay();">+ Category</button>
+                <button class="submit-button" onclick="" >+ FlashCard</button>
             </div>
         </div>
     </div>
 </div>
+
+<div class="overlay" id="overlay" tabindex="-1"></div>
+
+<div class="new-category-pop-up" id="popup" >
+    <div class="pop-up-content">
+        <h1 class="heading">Create new Sub Category</h1>
+
+        <div class="flex-inputs" id="pupup-flex">
+            <label class="labels">Sub Category Name</label>
+            <input type="text" class="input-info" id="new-category-name" />
+            <div class="flex-buttons" id="new-category-buttons">
+                <button class="submit-button" onclick="RegisterSubCategory();">+ Category</button>
+                <button class="submit-button" id="cancel-button" onclick="PopUpDisplay();" >- Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.AntiForgeryToken()

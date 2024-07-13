@@ -1,6 +1,6 @@
 ﻿function RegisterNewUser() {
     var newUser = {
-        Id: "4407f958-5a0b-4cbe-b476-c3721ed8d66a",
+        Id: "00000000-0000-0000-0000-000000000000",
         FullName: $('#fullName').val().trim(),
         UserName: $('#userName').val().trim(),
         Email: $('#email').val().trim(),

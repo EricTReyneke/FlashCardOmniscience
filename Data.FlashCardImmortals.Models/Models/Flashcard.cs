@@ -15,7 +15,7 @@ namespace Data.FlashCardImmortals.Models.Models
 
         public string Answer { get; set; }
 
-        public ICollection<SubCategory> SubCategory { get; set; }
+        public ICollection<SubCategories> SubCategory { get; set; }
     }
 }
 

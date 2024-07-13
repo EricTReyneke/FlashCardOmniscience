@@ -8,7 +8,7 @@ namespace Data.FlashCardImmortals.Interfaces
         /// Created the new SubCategory in the database.
         /// </summary>
         /// <param name="newSubCategory">New Sub Category data.</param>
-        void RegisterSubCategory(SubCategory newSubCategory);
+        void RegisterSubCategory(SubCategories newSubCategory);
 
         /// <summary>
         /// Retrieves all the SubCategories connected to the UserId and MainCategoryId supplied.
