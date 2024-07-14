@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FashCardImmortals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd6dd7c449bc1055d52cb6761edced1f13ca142")]
 [assembly: System.Reflection.AssemblyProductAttribute("FashCardImmortals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FashCardImmortals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

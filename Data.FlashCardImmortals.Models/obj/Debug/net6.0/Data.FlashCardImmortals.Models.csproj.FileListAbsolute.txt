@@ -10,3 +10,15 @@ C:\FlashCard\FashCardImmortals\Data.FlashCardImmortals.Models\obj\Debug\net6.0\D
 C:\FlashCard\FashCardImmortals\Data.FlashCardImmortals.Models\obj\Debug\net6.0\refint\Data.FlashCardImmortals.Models.dll
 C:\FlashCard\FashCardImmortals\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.pdb
 C:\FlashCard\FashCardImmortals\Data.FlashCardImmortals.Models\obj\Debug\net6.0\ref\Data.FlashCardImmortals.Models.dll
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\bin\Debug\net6.0\Data.FlashCardImmortals.Models.deps.json
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\bin\Debug\net6.0\Data.FlashCardImmortals.Models.dll
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\bin\Debug\net6.0\Data.FlashCardImmortals.Models.pdb
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.AssemblyInfoInputs.cache
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.AssemblyInfo.cs
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.csproj.CoreCompileInputs.cache
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.sourcelink.json
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.dll
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\refint\Data.FlashCardImmortals.Models.dll
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\Data.FlashCardImmortals.Models.pdb
+C:\FlashCardRepo\FlashCardOmniscience\Data.FlashCardImmortals.Models\obj\Debug\net6.0\ref\Data.FlashCardImmortals.Models.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {}
+    "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {}
   },
   "projects": {
-    "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+    "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
+        "projectUniqueName": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
         "projectName": "Data.FlashCardImmortals.Models",
-        "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
+        "projectPath": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj",
         "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
-        "outputPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\obj\\",
+        "outputPath": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {
+    "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
+        "projectUniqueName": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
         "projectName": "Data.FlashCardImmortals",
-        "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
+        "projectPath": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals\\Data.FlashCardImmortals.csproj",
         "packagesPath": "C:\\Users\\eric2\\.nuget\\packages\\",
-        "outputPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals\\obj\\",
+        "outputPath": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
-                "projectPath": "C:\\FlashCard\\FashCardImmortals\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj"
+              "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj": {
+                "projectPath": "C:\\FlashCardRepo\\FlashCardOmniscience\\Data.FlashCardImmortals.Models\\Data.FlashCardImmortals.Models.csproj"
               }
             }
           }
@@ -103,6 +108,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -142,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

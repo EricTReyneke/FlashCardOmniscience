@@ -100,3 +100,4 @@ namespace FashCardImmortals.Pages
         #endregion
     }
 }
+//Lekker

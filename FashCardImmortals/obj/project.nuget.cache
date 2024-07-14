@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Masnzf9WxiB8q07XZ0G6NXIv5jb/agrTbOYhEYGj2KAbKUKML4Ta7EM3ctee/6sEXsbmtdPvBcmagcywiehbYg==",
+  "dgSpecHash": "QUJkFyxr5pw=",
   "success": true,
-  "projectFilePath": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\FashCardImmortals.csproj",
+  "projectFilePath": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\FashCardImmortals.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eric2\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\eric2\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",

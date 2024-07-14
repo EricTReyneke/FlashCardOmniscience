@@ -1,271 +1,271 @@
 {
   "Files": [
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FashCardImmortals.bundle.scp.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FashCardImmortals.bundle.scp.css",
       "PackagePath": "staticwebassets\\FashCardImmortals.bundle.scp.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\css\\LoginStyles.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\css\\LoginStyles.css",
       "PackagePath": "staticwebassets\\css\\LoginStyles.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\css\\ManipulateFalshStyles.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\css\\ManipulateFalshStyles.css",
       "PackagePath": "staticwebassets\\css\\ManipulateFalshStyles.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\css\\RegisterScript.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\css\\RegisterScript.css",
       "PackagePath": "staticwebassets\\css\\RegisterScript.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\css\\site.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\favicon.ico",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\js\\LoginScript.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\js\\LoginScript.js",
       "PackagePath": "staticwebassets\\js\\LoginScript.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\js\\ManipulateFalshScript.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\js\\ManipulateFalshScript.js",
       "PackagePath": "staticwebassets\\js\\ManipulateFalshScript.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\js\\RegisterScript.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\js\\RegisterScript.js",
       "PackagePath": "staticwebassets\\js\\RegisterScript.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\js\\site.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\FlashCard\\FashCardImmortals\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\FlashCardRepo\\FlashCardOmniscience\\FashCardImmortals\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -9,73 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FashCardImmortals
 build_property.RootNamespace = FashCardImmortals
-build_property.ProjectDir = C:\FlashCard\FashCardImmortals\FashCardImmortals\
+build_property.ProjectDir = C:\FlashCardRepo\FlashCardOmniscience\FashCardImmortals\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\FlashCard\FashCardImmortals\FashCardImmortals
+build_property.MSBuildProjectDirectory = C:\FlashCardRepo\FlashCardOmniscience\FashCardImmortals
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Categories.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Dashboard.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Error.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Home.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Index.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Login.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/ManipulateFlash.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/ManipulateFlash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuaXB1bGF0ZUZsYXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Privacy.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Progress.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Progress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3Jlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Quiz.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Quiz.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpei5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Register.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Review.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/_ViewImports.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/_ViewStart.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FlashCard/FashCardImmortals/FashCardImmortals/Pages/Shared/_Layout.cshtml]
+[C:/FlashCardRepo/FlashCardOmniscience/FashCardImmortals/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3samhmkgmp
