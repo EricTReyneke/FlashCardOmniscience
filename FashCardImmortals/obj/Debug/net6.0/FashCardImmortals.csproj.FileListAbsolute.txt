@@ -47,7 +47,8 @@ C:\FlashCard\FashCardImmortals\FashCardImmortals\bin\Debug\net6.0\Data.FlashCard
 C:\FlashCard\FashCardImmortals\FashCardImmortals\bin\Debug\net6.0\Business.FlashCardImmortals.pdb
 C:\FlashCard\FashCardImmortals\FashCardImmortals\bin\Debug\net6.0\Data.FlashCardImmortals.Models.pdb
 C:\FlashCard\FashCardImmortals\FashCardImmortals\bin\Debug\net6.0\Data.FlashCardImmortals.pdb
-C:\FlashCard\FashCardImmortals\FashCardImmortals\obj\Debug\net6.0\FashCardImmortals.csproj.CopyComplete
+C:\FlashCard\FashCardImmortals\FashCardImmortals\obj\Debug\net6.0\FashCardImmortals.sourcelink.json
+C:\FlashCard\FashCardImmortals\FashCardImmortals\obj\Debug\net6.0\FashCard.9BF351EC.Up2Date
 C:\FlashCardRepo\FlashCardOmniscience\FashCardImmortals\bin\Debug\net6.0\appsettings.Development.json
 C:\FlashCardRepo\FlashCardOmniscience\FashCardImmortals\bin\Debug\net6.0\appsettings.json
 C:\FlashCardRepo\FlashCardOmniscience\FashCardImmortals\bin\Debug\net6.0\FashCardImmortals.staticwebassets.runtime.json

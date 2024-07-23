@@ -17,11 +17,11 @@ namespace Data.FlashCardImmortals.Models.Models
 
         public string Name { get; set; }
 
-        [IgnoreDataMember]
-        public IEnumerable<Users> Users { get; set; }
+        //[IgnoreDataMember]
+        //public IEnumerable<Users> Users { get; set; }
 
-        [IgnoreDataMember]
-        public IEnumerable<MainCategories> MainCategories { get; set; }
+        //[IgnoreDataMember]
+        //public IEnumerable<MainCategories> MainCategories { get; set; }
     }
 }
 

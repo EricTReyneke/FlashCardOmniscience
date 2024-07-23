@@ -1,4 +1,4 @@
-﻿function RegisterSubCategory() {
+﻿function RegisterSubCategory(mainCategoryId) {
     var categoryName = $('#new-category-name-input').val().trim();
 
     if (!categoryName) {
@@ -12,7 +12,8 @@
     }
 
     var newSubCategory = {
-        Name: categoryName
+        Name: categoryName,
+        MainCategoryId: mainCategoryId
     };
 
     $.ajax({
@@ -32,6 +33,8 @@
                     position: "right",
                     backgroundColor: "#4CAF50",
                 }).showToast();
+                InjectCategories(response.numberOfSubCategories, categoryName, response.id);
+                InjectCategoryNameIntoList(categoryName, response.id);
                 PopUpDisplay();
             } else {
                 Toastify({
@@ -59,8 +62,9 @@
 function RegisterNewFlashCard() {
     var question = $('#question-input').val().trim();
     var answer = $('#answer-input').val().trim();
-    var subCategoryName = $('#sub-category-input option:selected').val().trim().split('/')[0];
-    var subCategoryId = $('#sub-category-input option:selected').val().trim().split('/')[1];
+    var subCategoryValue = $('#sub-category-input option:selected').val().trim().split('/');
+    var subCategoryName = subCategoryValue[0];
+    var subCategoryId = subCategoryValue[1];
 
     var newFlashCard = {
         SubCategoryId: subCategoryId,
@@ -79,13 +83,13 @@ function RegisterNewFlashCard() {
         success: function (response) {
             if (response.success) {
                 Toastify({
-                    text: "Subcategory registered successfully!",
+                    text: "Flashcard registered successfully!",
                     duration: 3000,
                     gravity: "bottom",
                     position: "right",
                     backgroundColor: "#4CAF50",
                 }).showToast();
-                InjectNewFlashCard(question, answer, subCategoryName, subCategoryId);
+                InjectNewFlashCard(question, answer, subCategoryName, response.id);
             } else {
                 Toastify({
                     text: response.error,
@@ -167,36 +171,67 @@ function flipCard(cardId) {
     card.classList.toggle('flipped');
 }
 
-function InjectNewFlashCard(question, answer, subCategoryName, subCategoryId) {
+function InjectCategoryNameIntoList(subCategoryName, subCategoryId) {
+    var subCategoryList = document.getElementById('sub-category-input');
+    var newOption = document.createElement('option');
+    newOption.value = `${subCategoryName}/${subCategoryId}`;
+    newOption.text = subCategoryName;
+    subCategoryList.appendChild(newOption);
+}
+
+function CalculateWhereToAddCategory(numberOfSubCategories) {
+    if (numberOfSubCategories <= 4) {
+        return 1;
+    }
+    if (numberOfSubCategories >= 9) {
+        return null;
+    }
+    return 2;
+}
+
+function InjectCategories(numberOfSubCategories, subCategoryName, subCategoryId) {
+    var whereToAdd = CalculateWhereToAddCategory(numberOfSubCategories);
+
+    if (whereToAdd == null)
+        return;
+
+    var divToAddSubCategory = document.getElementById(`category-flex-${whereToAdd}`);
+
+    var htmlContent = `
+        <div class="category-content-containers">
+            <h3 class="sub-category-headings">${subCategoryName}</h3>
+            <hr />
+            <div class="flash-cards-in-${subCategoryId}">
+            </div>
+        </div>`;
+
+    divToAddSubCategory.insertAdjacentHTML('beforeend', htmlContent);
+}
+
+function InjectNewFlashCard(question, answer, subCategoryName, flashCardId) {
     var flashCardContainer = document.getElementById(`flash-cards-in-${subCategoryName}`);
 
     var htmlContent = `
-                <div class="flash-cards">
-                     <div class="flash-card-inner" id="flash-card-inner-${subCategoryId}">
-                         <div class="flash-card-front">
-                            <br />
-                            <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-${subCategoryId}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">${question}</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-${subCategoryId}')">Swap</button>
-                                    <br />
-                                </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">${answer}</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-${subCategoryId}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br />`
+        <div class="flash-cards">
+            <div class="flash-card-inner" id="flash-card-inner-${flashCardId}">
+                <div class="flash-card-front">
+                    <h5 class="sub-category-headings">Question:</h5>
+                    <label class="flash-card-contents">${question}</label>
+                    <br /><br />
+                    <button class="button" onclick="flipCard('flash-card-inner-${flashCardId}')">Swap</button>
+                    <br />
+                </div>
+                <div class="flash-card-back">
+                    <h5 class="sub-category-headings">Answer:</h5>
+                    <label class="flash-card-contents">${answer}</label>
+                    <br /><br />
+                    <button class="button" onclick="flipCard('flash-card-inner-${flashCardId}')">Swap</button>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />`;
 
-    flashCardContainer.insertAdjacentHTML('afterend', htmlContent);
+    flashCardContainer.insertAdjacentHTML('beforeend', htmlContent);
 }

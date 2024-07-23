@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 
 namespace Data.FlashCardImmortals.Models.Models
 {
-    public class Flashcards
+    public class FlashCards
     {
         [Key]
         public Guid Id { get; set; }
@@ -21,7 +21,7 @@ namespace Data.FlashCardImmortals.Models.Models
     }
 }
 
-//CREATE TABLE Flashcards (
+//CREATE TABLE FlashCards (
 //    Id UniqueIdentifier PRIMARY KEY,
 //    SubCategoryId UniqueIdentifier NOT NULL,
 //    Question NVARCHAR(Max) NOT NULL,

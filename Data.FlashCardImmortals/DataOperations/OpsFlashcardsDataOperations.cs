@@ -1,4 +1,5 @@
 ﻿using Business.DynamicModelReflector.Interfaces;
+using Business.DynamicModelReflector.Models;
 using Data.FlashCardImmortals.Base;
 using Data.FlashCardImmortals.Interfaces;
 using Data.FlashCardImmortals.Models.Models;
@@ -16,10 +17,11 @@ namespace Data.FlashCardImmortals.DataOperations
         #endregion
 
         #region Public Methods
-        public void RegisterNewFlashCard(Flashcards newFlashCard)
+        public ICollection<PrimaryKeyInfo> RegisterNewFlashCard(FlashCards newFlashCard)
         {
             try
             {
+                return
                 _reflector
                     .Create(newFlashCard)
                     .Execute();
@@ -30,11 +32,11 @@ namespace Data.FlashCardImmortals.DataOperations
             }
         }
 
-        public List<Flashcards> RetrieveAllFlashcardsFormSubCategory(Guid subCategoryId)
+        public List<FlashCards> RetrieveAllFlashcardsFormSubCategory(Guid subCategoryId)
         {
             try
             {
-                IEnumerable<Flashcards> flashcards = new List<Flashcards>();
+                IEnumerable<FlashCards> flashcards = new List<FlashCards>();
 
                 _reflector
                     .Load(flashcards)

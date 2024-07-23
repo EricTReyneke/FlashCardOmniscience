@@ -3,8 +3,8 @@
 @model FashCardImmortals.Pages.ManipulateFlashModel
 
 <head>
-    <link rel="stylesheet" href="~/css/ManipulateFalshStyles.css">
-    <script src="~/js/ManipulateFalshScript.js"></script>
+    <link rel="stylesheet" href="./css/ManipulateFalshStyles.css">
+    <script src="./js/ManipulateFalshScript.js"></script>
 </head>
 
 <div class="flash-container">
@@ -33,10 +33,10 @@
         </div>
     </div>
     <div class="sub-category-container">
-        <div class="row-one-flex">
+        <div class="category-flex" id="category-flex-1">
             @for (int i = 0; i < Model.SubCategoriesList.Count(); i++)
             {
-                if (i == 5)
+                if (i == 4)
                 {
                     break;
                 }
@@ -45,164 +45,81 @@
                     <h3 class="sub-category-headings">@Model.SubCategoriesList[i].Name</h3>
                     <hr />
                     <div class="flash-cards-in-@Model.SubCategoriesList[i].Name" id="flash-cards-in-@Model.SubCategoriesList[i].Name">
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-@Model.SubCategoriesList[i].Id">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-@Model.SubCategoriesList[i].Id')">Swap</button>
-                                    <br />
+                        @if (Model.FlashcardsInSubcategories.ContainsKey(Model.SubCategoriesList[i].Id))
+                        {
+                            @foreach (FlashCards flashCards in Model.FlashcardsInSubcategories[Model.SubCategoriesList[i].Id])
+                            {
+                                <div class="flash-cards">
+                                    <div class="flash-card-inner" id="flash-card-inner-@flashCards.Id">
+                                        <div class="flash-card-front">
+                                            <h5 class="sub-category-headings">Question:</h5>
+                                            <label class="flash-card-contents">@flashCards.Question</label>
+                                            <br />
+                                            <br />
+                                            <button class="button" onclick="flipCard('flash-card-inner-@flashCards.Id')">Swap</button>
+                                            <br />
+                                        </div>
+                                        <div class="flash-card-back">
+                                            <h5 class="sub-category-headings">Answer:</h5>
+                                            <label class="flash-card-contents">@flashCards.Answer</label>
+                                            <br />
+                                            <br />
+                                            <button class="button" onclick="flipCard('flash-card-inner-@flashCards.Id')">Swap</button>
+                                            <br />
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-@Model.SubCategoriesList[i].Id')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
 
-                        <br />
-                        <br />
-
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <br />
-                        <br />
-
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <br />
+                                <br />
+                                <br />
+                            }
+                        }
                     </div>
                 </div>
             }
         </div>
 
-        <div class="row-one-flex">
-            <div class="category-content-containers">
-                <h3 class="sub-category-headings">War</h3>
-                <hr />
-                <div class="flash-cards-in-"></div>
-            </div>
-
+        <div class="category-flex" id="category-flex-2">
             @for (int i = 5; i < Model.SubCategoriesList.Count(); i++)
             {
+                if (i == 9)
+                {
+                    break;
+                }
+
                 <div class="category-content-containers">
                     <h3 class="sub-category-headings">@Model.SubCategoriesList[i].Name</h3>
                     <hr />
-                    <div class="flash-cards-in-@Model.SubCategoriesList[i].Name">
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
+                    <div class="flash-cards-in-@Model.SubCategoriesList[i].Name" id="flash-cards-in-@Model.SubCategoriesList[i].Name">
+                        @if (Model.FlashcardsInSubcategories.ContainsKey(Model.SubCategoriesList[i].Id))
+                        {
+                            @foreach (FlashCards flashCards in Model.FlashcardsInSubcategories[Model.SubCategoriesList[i].Id])
+                            {
+                                <div class="flash-cards">
+                                    <div class="flash-card-inner" id="flash-card-inner-@flashCards.Id">
+                                        <div class="flash-card-front">
+                                            <h5 class="sub-category-headings">Question:</h5>
+                                            <label class="flash-card-contents">@flashCards.Question</label>
+                                            <br />
+                                            <br />
+                                            <button class="button" onclick="flipCard('flash-card-inner-@flashCards.Id')">Swap</button>
+                                            <br />
+                                        </div>
+                                        <div class="flash-card-back">
+                                            <h5 class="sub-category-headings">Answer:</h5>
+                                            <label class="flash-card-contents">@flashCards.Answer</label>
+                                            <br />
+                                            <br />
+                                            <button class="button" onclick="flipCard('flash-card-inner-@flashCards.Id')">Swap</button>
+                                            <br />
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
 
-                        <br />
-                        <br />
-
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <br />
-                        <br />
-
-                        <div class="flash-cards">
-                            <div class="flash-card-inner" id="flash-card-inner-{Guid.NewGuid()}">
-                                <div class="flash-card-front">
-                                    <h5 class="sub-category-headings">Question:</h5>
-                                    <label class="flash-card-contents">Lekker wat se jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                                <div class="flash-card-back">
-                                    <h5 class="sub-category-headings">Answer:</h5>
-                                    <label class="flash-card-contents">Nee goed en jy?</label>
-                                    <br />
-                                    <br />
-                                    <button class="button" onclick="flipCard('flash-card-inner-{Guid.NewGuid()}')">Swap</button>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-
-                        <br />
+                                <br />
+                                <br />
+                            }
+                        }
                     </div>
                 </div>
             }
@@ -219,7 +136,7 @@
             <label class="labels" for="new-category-name-input">Sub Category Name</label>
             <input type="text" id="new-category-name-input" class="input-info" />
             <div class="flex-buttons" id="new-category-buttons">
-                <button class="submit-button" onclick="RegisterSubCategory();">+ Category</button>
+                <button class="submit-button" onclick="RegisterSubCategory('807E3B0D-C532-40C8-A606-A09B99839B7E');">+ Category</button>
                 <button class="submit-button" id="cancel-button" onclick="PopUpDisplay();">- Cancel</button>
             </div>
         </div>

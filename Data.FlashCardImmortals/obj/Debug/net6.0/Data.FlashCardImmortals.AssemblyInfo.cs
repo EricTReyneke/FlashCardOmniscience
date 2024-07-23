@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Data.FlashCardImmortals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd6dd7c449bc1055d52cb6761edced1f13ca142")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50fce363078a9bd8ce06e9a85d82b65f5e3a4b19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Data.FlashCardImmortals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Data.FlashCardImmortals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
